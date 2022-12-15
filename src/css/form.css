@@ -1,0 +1,24 @@
+.form{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:1rem;
+}
+
+.form label{
+    width:100%;
+}
+
+.form input{
+    border:1px solid #ccc;
+    padding:.75rem;
+    display:block;
+    width:100%;
+}
+.form button{
+    border:none;
+    color:white;
+    padding:1rem 2rem;
+    background-color:rgb(112, 188, 163);
+    border-radius: 5px;
+}

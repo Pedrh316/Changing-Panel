@@ -1,0 +1,44 @@
+// let contexto = React.createContext("Material");
+
+// function Componente1(){
+
+//     function consoleExecution(){
+//         console.log('está sendo executado uma função como valor do context');
+//     }
+
+//     return (
+//         <div>
+//             <h1>Este é o primeiro componente da árvore</h1>
+//             <contexto.Provider value={consoleExecution}>
+//                 <Componente2/>
+//             </contexto.Provider>
+//         </div>
+//     )
+// }
+
+// function Componente2(){
+//     return (
+//         <div>
+//             <h2>Este é o segundo componente da árvore</h2>
+//             <Componente3/>
+//         </div>
+//     )
+// }
+
+// function Componente3(){
+//     let valorDoContext = React.useContext(contexto);
+    
+//     function handleClick(){
+//         valorDoContext();
+//     }
+
+//     return (
+//         <div>            
+//             <h3 onClick={handleClick}>Este é o terceiro componente da árvore com o valor do context sendo</h3>
+//         </div>
+//     )
+// }
+
+// function Teste(){
+//     return (<Componente1/>)
+// }

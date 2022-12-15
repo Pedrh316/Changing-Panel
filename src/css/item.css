@@ -1,0 +1,21 @@
+.item{
+    padding:1rem;
+    width:100%;
+    display:inline-block;
+    border:none;
+    text-align: left;
+    background-color: transparent;
+    color:white;   
+    font-family:'Poppins',sans-serif; 
+}
+.item h3{
+    font-size:1.1rem;
+}
+
+.item-selected{
+    background-color:rgb(112, 188, 163);
+}
+
+.boxContainer{
+    position:relative;
+}

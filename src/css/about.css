@@ -1,0 +1,31 @@
+.about{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about__title{
+    margin-bottom:1rem;
+}
+
+.social__title{
+    color:rgb(112, 188, 163);;
+    border-bottom:2px solid rgb(112, 188, 163);;
+    padding-bottom:.5rem;
+    margin-bottom:1rem;
+}
+
+.social__list{
+    list-style: none;
+    display:flex;
+    gap:1rem;    
+}
+/* .social__list li{ */
+/* } */
+
+.social__icon{
+    filter:grayscale(40%);
+    display:inline-block;
+    width:25px;
+}
